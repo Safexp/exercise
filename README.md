@@ -19,6 +19,7 @@ Just to test git commands.
 # normal work process
 
 1. get newest files
+exec git pull to get newest change
 
     git pull --rebase
 
@@ -30,12 +31,14 @@ for each changed files exec.
 
     git add file
 
-4. every time finished a semall work, such like fix a bug, you should exec
+4. commit changes
+every time finished a semall work, such like fix a bug, you should exec
     message should be the message what you did.
 
     git commit -m "message"
 
 5. push local changes to remote
+every time before pushing changes,you should get newest changes first
 
     git pull --rebase
     git push
@@ -45,7 +48,7 @@ for each changed files exec.
 
 every time you can exec 
 
-  git status
+    git status
 
 to check what happened
 
